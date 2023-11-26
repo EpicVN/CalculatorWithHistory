@@ -81,7 +81,7 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.calculatortest"
+    namespace 'com.epicdemocraft.CalculatorTest'
     defaultConfig {
         applicationId 'com.epicdemocraft.CalculatorTest'
         minSdkVersion rootProject.ext.minSdkVersion

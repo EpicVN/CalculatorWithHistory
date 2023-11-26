@@ -1,9 +1,10 @@
-import React from 'react'
+import { useEffect, useState, React } from 'react'
 import { StyleSheet, Text, View, Button, FlatList, ScrollView } from 'react-native'
 import History from './src/components/History'
+import * as ScreenOrientation from 'expo-screen-orientation'
 
 export default function App() {
-  return (
+return (
     <ScrollView contentContainerStyle={styles.content}>
       <Text style={styles.title}>Calculator</Text>
       <History/>
